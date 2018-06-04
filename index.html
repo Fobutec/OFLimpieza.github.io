@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class=""  lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>OFlimpieza</title>
+
+	<!-- Standard Favicon -->
+	<link rel="icon" type="image/x-icon" href="images//favicon.ico" />
+	
+	<!-- For iPhone 4 Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images//apple-touch-icon-114x114-precomposed.png">
+	
+	<!-- For iPad: -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images//apple-touch-icon-72x72-precomposed.png">
+	
+	<!-- For iPhone: -->
+	<link rel="apple-touch-icon-precomposed" href="images//apple-touch-icon-57x57-precomposed.png">
+
+	<!-- Library - Google Font Familys -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+ 
+	<!-- RS5.0 Layers and Navigation Styles -->
+	<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+	
+	<!-- Library - Bootstrap v3.3.5 -->
+	<link rel="stylesheet" type="text/css" href="libraries/lib.css">
+	
+	<!-- Custom - Common CSS -->
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation-menu.css">	
+	
+	<!-- Custom - Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		$("nav").find("a").click(function(e) {
+			e.preventDefault();
+			var section = $(this).attr("href");
+			$("html, body").animate({
+				scrollTop: $(section).offset().top;
+			});
+		});
+	</script>
+</head>
+
+<body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+	<!-- Loader -->
+	<div id="site-loader" class="load-complete">
+		<div class="loader">
+			<div class="loader-inner ball-clip-rotate">
+				<div></div>
+			</div>
+		</div>
+	</div><!-- Loader /- -->
+	
+	<!-- Header -->
+	<header class="header-section container-fluid no-padding">
+		<!-- Top Header -->
+		<div class="top-header container-fluid no-padding">
+			<!-- Container -->
+			<div class="container">
+				<!-- Social -->
+				<div class="col-md-5 col-sm-6 col-xs-12 header-social"> 
+					<h5>Síguenos :</h5>
+					<ul>
+						<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" title="Google"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div><!-- Social /- -->
+				<div class="col-md-7 col-sm-6 col-xs-12 info">
+					<p><i class="icon icon-Phone2"></i><a href="tel:5531499063" title="Phone" class="phone">Llámanos a: NÚMERO</a></p>
+					<p><i class="icon icon-Imbox"></i><a href="mailto:limpiezarcl@gmail.com" title="limpiezarcl@gmail.com">Envíanos correo a: limpiezarcl@gmail.com</a></p>
+				</div>
+			</div><!-- Container /- -->
+		</div><!-- Top Header /- -->
+		
+		<!-- Menu Block -->
+		<div class="container-fluid no-padding menu-block">
+			<!-- Container -->
+			<div class="container">
+				<!-- nav -->
+				<nav class="navbar navbar-default ow-navigation">
+					<div class="navbar-header">
+						<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a title="Logo" href="index.html" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
+					</div>
+					<div class="navbar-collapse collapse navbar-right" id="navbar">
+						<ul class="nav navbar-nav">
+							<li class="dropdown active">
+							<li><a title="Inicio" href="index.html">Inicio</a></li>
+							<li><a title="Nosotros" href="#acerca-de">Acerca de</a></li>
+							<li><a title="Servicios" href="#servicios">Servicios</a></li>
+							<li><a title="FAQ" href="#faq">FAQ</a></li>
+							<li><a title="Clientes" href="#clientes">Clientes</a></li>
+							<li><a title="Contacto" href="#contacto">Contacto</a></li>
+							<!-- <li class="dropdown">
+								<a aria-expanded="false" aria-haspopup="true" role="button" class="dropdown-toggle" title="Our Blog" href="blog.html">Our Blog</a>
+								<i class="ddl-switch fa fa-angle-down"></i>
+								<ul class="dropdown-menu">	
+									<li><a title="Blog" href="blog.html">Blog</a></li>
+									<li><a title="Blog Post" href="blog-post.html">Blog Post</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a aria-expanded="false" aria-haspopup="true" role="button" class="dropdown-toggle" title="Contact Us" href="contact-us.html">Contact Us</a>
+								<i class="ddl-switch fa fa-angle-down"></i>
+								<ul class="dropdown-menu">	
+									<li><a title="Contact 1" href="contact-01.html">Contact 1</a></li>
+									<li><a title="Contact 2" href="contact-02.html">Contact 2</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a aria-expanded="false" aria-haspopup="true" role="button" class="dropdown-toggle" title="portfolio" href="#gallery-section">portfolio</a>
+								<i class="ddl-switch fa fa-angle-down"></i>
+								<ul class="dropdown-menu">	
+									<li><a title="Gallery 01" href="gallery-01.html">Gallery 01</a></li>
+									<li><a title="Gallery 02" href="gallery-02.html">Gallery 02</a></li>
+									<li><a title="Gallery Single" href="gallery-single.html">Gallery Single</a></li>
+								</ul>
+							</li> -->
+						</ul>
+					</div><!--/.nav-collapse -->
+				</nav><!-- nav /- -->
+			</div><!-- Container /- -->
+		</div><!-- Menu Block /- -->
+	</header><!-- Header /- -->
+	
+	<main>
+		<!-- Slider Section 1 -->
+		<div id="home-revslider" class="slider-section container-fluid no-padding">
+			<!-- START REVOLUTION SLIDER 5.0 -->
+			<div class="rev_slider_wrapper">
+				<div id="home-slider1" class="rev_slider" data-version="5.0">
+					<ul> 
+						<li data-transition="zoomout" data-slotamount="default"  data-easein="easeInOut" data-easeout="easeInOut" data-masterspeed="2000" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7">
+							<img src="images/slider-1.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+							<!-- LAYERS -->
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption tp-shape tp-shapewrapper" id="slide-layer-0"
+								data-x="['center','center','center','center']" 
+								data-y="['middle','middle','middle','middle']" 
+								data-basealign="slide" 
+								data-height="full" 
+								data-hoffset="['0','0','0','0']" 
+								data-responsive="off" 
+								data-responsive_offset="off" 
+								data-start="0" 
+								data-transform_idle="o:1;" 
+								data-transform_in="opacity:0;s:2000;e:Power2.easeInOut;" 
+								data-transform_out="opacity:0;s:500;s:500;" 
+								data-voffset="['0','0','0','0']" 
+								data-whitespace="nowrap" 
+								data-width="full"
+								style="z-index: 5;background-color:rgba(16, 38, 50, 0.8);">
+							</div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0" id="slide-layer-1" 
+								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+								data-y="['middle','middle','middle','middle']" data-voffset="['-140','-100','-100','-100']" 
+								data-fontsize="['38','30','25','15']"
+								data-lineheight="['60','60','60','60']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+								data-start="1000" 
+								data-splitin="chars" 
+								data-splitout="none" 
+								data-responsive_offset="on"
+								data-elementdelay="0.05" 
+								style="z-index: 5; white-space: nowrap; letter-spacing: 1.9px; color:#fff; font-weight: 700; font-family: 'Poppins', sans-serif; text-transform: uppercase;">¿Limpieza?
+							</div>
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0" id="slide-layer-2" 
+								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+								data-y="['middle','middle','middle','middle']" data-voffset="['-80','-60','-60','-60']" 
+								data-fontsize="['38','30','25','15']"
+								data-lineheight="['60','60','60','60']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+								data-start="1000" 
+								data-splitin="chars" 
+								data-splitout="none" 
+								data-responsive_offset="on"
+								data-elementdelay="0.05" 
+								style="z-index: 5; white-space: nowrap; letter-spacing: 1.9px; color:#fff; font-weight: 700; font-family: 'Poppins', sans-serif; text-transform: uppercase;">Nuestra Especialidad 
+							</div>
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption NotGeneric-Button rev-btn  rs-parallaxlevel-0" id="slide-layer-3" 
+								data-x="['right','right','right','center']" data-hoffset="['970','522','394','0']" 
+								data-y="['top','top','top','top']" data-voffset="['425','325','285','210']" 
+								data-fontsize="['12','12','12','12']"
+								data-fontweight="['700','700','700','700']"
+								data-lineheight="['28','20','20','20']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:100;e:Power1.easeInOut;"
+								data-style_hover="c:rgba(0, 130, 202, 1.00);bg:rgba(255, 255, 255, 1.00);"
+								data-transform_in="x:[-100%];z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2500;e:Power3.easeInOut;" 
+								data-transform_out="auto:auto;s:1000;e:Power2.easeInOut;" 
+								data-start="2000" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
+								data-responsive_offset="on" 
+								data-responsive="off"
+								style="z-index: 10;padding:8px 33px; letter-spacing:1.2px; color: #222; font-family: 'Poppins', sans-serif; text-transform:uppercase; background-color:#ffea00; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">NOSOTROS
+							</div>
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption NotGeneric-Button rev-btn  rs-parallaxlevel-0" id="slide-layer-4" 
+								data-x="['left','left','left','center']" data-hoffset="['970','522','394','0']" 
+								data-y="['top','top','top','top']" data-voffset="['425','325','285','290']"  
+								data-fontsize="['12','12','12','12']"
+								data-fontweight="['700','700','700','700']"
+								data-lineheight="['28','20','20','20']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Linear.easeNone;"
+								data-style_hover="c:rgba(0, 130, 202, 1.00);bg:rgba(255, 255, 255, 1.00);"
+								data-transform_in="x:[100%];z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2500;e:Power3.easeInOut;" 
+								data-transform_out="auto:auto;s:1000;e:Power2.easeInOut;" 
+								data-start="2000" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
+								data-responsive_offset="on" 
+								data-responsive="off"
+								style="z-index:9; padding:8px 33px; letter-spacing:1.2px; font-family: 'Poppins', sans-serif; text-transform:uppercase; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Nuestros Servicios
+							</div>	
+						</li>
+						
+						<li data-transition="zoomout" data-slotamount="default"  data-easein="easeInOut" data-easeout="easeInOut" data-masterspeed="2000" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7">
+							<img src="images/slider-2.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+							<!-- LAYERS -->
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption tp-shape tp-shapewrapper" id="slide-layer-5"
+								data-x="['center','center','center','center']" 
+								data-y="['middle','middle','middle','middle']" 
+								data-basealign="slide" 
+								data-height="full" 
+								data-hoffset="['0','0','0','0']" 
+								data-responsive="off" 
+								data-responsive_offset="off" 
+								data-start="0" 
+								data-transform_idle="o:1;" 
+								data-transform_in="opacity:0;s:2000;e:Power2.easeInOut;" 
+								data-transform_out="opacity:0;s:500;s:500;" 
+								data-voffset="['0','0','0','0']" 
+								data-whitespace="nowrap" 
+								data-width="full"
+								style="z-index: 5;background-color:rgba(16, 38, 50, 0.8);">
+							</div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0" id="slide-layer-6" 
+								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+								data-y="['middle','middle','middle','middle']" data-voffset="['-140','-100','-100','-100']" 
+								data-fontsize="['38','30','25','15']"
+								data-lineheight="['60','60','60','60']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+								data-start="1000" 
+								data-splitin="chars" 
+								data-splitout="none" 
+								data-responsive_offset="on"
+								data-elementdelay="0.05" 
+								style="z-index: 5; white-space: nowrap; letter-spacing: 1.9px; color:#fff; font-weight: 700; font-family: 'Poppins', sans-serif; text-transform: uppercase;">CALIDAD DE SERVICIO INIGUALABLE
+							</div>
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0" id="slide-layer-7" 
+								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+								data-y="['middle','middle','middle','middle']" data-voffset="['-80','-60','-60','-60']" 
+								data-fontsize="['38','30','25','15']"
+								data-lineheight="['60','60','60','60']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+								data-start="1000" 
+								data-splitin="chars" 
+								data-splitout="none" 
+								data-responsive_offset="on"
+								data-elementdelay="0.05" 
+								style="z-index: 5; white-space: nowrap; letter-spacing: 1.9px; color:#fff; font-weight: 700; font-family: 'Poppins', sans-serif; text-transform: uppercase;">CON PERSONAL CAPACITADO 
+							</div>
+						</li>
+						
+						<li data-transition="zoomout" data-slotamount="default"  data-easein="easeInOut" data-easeout="easeInOut" data-masterspeed="2000" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7">
+							<img src="images/slider-3.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+							<!-- LAYERS -->
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption tp-shape tp-shapewrapper" id="slide-layer-10"
+								data-x="['center','center','center','center']" 
+								data-y="['middle','middle','middle','middle']" 
+								data-basealign="slide" 
+								data-height="full" 
+								data-hoffset="['0','0','0','0']" 
+								data-responsive="off" 
+								data-responsive_offset="off" 
+								data-start="0" 
+								data-transform_idle="o:1;" 
+								data-transform_in="opacity:0;s:2000;e:Power2.easeInOut;" 
+								data-transform_out="opacity:0;s:500;s:500;" 
+								data-voffset="['0','0','0','0']" 
+								data-whitespace="nowrap" 
+								data-width="full"
+								style="z-index: 5;background-color:rgba(16, 38, 50, 0.8);">
+							</div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0" id="slide-layer-11" 
+								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+								data-y="['middle','middle','middle','middle']" data-voffset="['-140','-100','-100','-100']" 
+								data-fontsize="['38','30','25','18']"
+								data-lineheight="['60','60','60','60']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+								data-start="1000" 
+								data-splitin="chars" 
+								data-splitout="none" 
+								data-responsive_offset="on"
+								data-elementdelay="0.05" 
+								style="z-index: 5; white-space: nowrap; letter-spacing: 1.9px; color:#fff; font-weight: 700; font-family: 'Poppins', sans-serif; text-transform: uppercase;">SERVICIO SEGURO Y DE LA MÁS ALTA CALIDAD
+							</div>
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0" id="slide-layer-12" 
+								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+								data-y="['middle','middle','middle','middle']" data-voffset="['-80','-60','-60','-60']" 
+								data-fontsize="['38','30','25','18']"
+								data-lineheight="['60','60','60','60']"
+								data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+								data-start="1000" 
+								data-splitin="chars" 
+								data-splitout="none" 
+								data-responsive_offset="on"
+								data-elementdelay="0.05" 
+								style="z-index: 5; white-space: nowrap; letter-spacing: 1.9px; color:#fff; font-weight: 700; font-family: 'Poppins', sans-serif; text-transform: uppercase;">AVALADO POR EMPRESAS DE PRESTIGIO
+							</div>
+						
+							
+						</li>
+					</ul>
+				</div><!-- END REVOLUTION SLIDER -->
+			</div><!-- END OF SLIDER WRAPPER -->
+		</div><!-- Slider Section 1 /- -->
+		
+		<!-- Working Section -->
+		<div class="working-section container-fluid">
+			<!-- Container -->
+			<div class="container">
+				<div class="col-md-4 col-sm-6 col-xs-6">
+					<div class="working-content">
+						<i class="fa fa-clock-o"></i>
+						<h3>Horario Laboral</h3>
+						<p>Lunes - Viernes</p>
+						<p>07.00 am - 08.oo pm</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-6">
+					<div class="working-content">
+						<i class="fa fa-phone"></i>
+						<h3>CONTACTO</h3>
+						<p>Llámanos</p>
+						<p><a href="tel:+5578129492" title="Phone" class="phone">número</a></p>
+					</div>
+				</div>
+				<div id="acerca-de" class="col-md-4 col-sm-6 col-xs-6">
+					<div class="working-content">
+						<i class="fa fa-home"></i>
+						<h3>VISÍTANOS</h3>
+						<p>Ciudad de México.</p>
+						<p>Calle Holbein #37, Colonia Nápoles - Despacho #304, </p>
+					</div>
+				</div>
+			</div><!-- Container /- -->
+		</div><!-- Working Section /- -->
+		
+		<!-- Acerca de Section -->
+		<div class="service-section container-fluid no-padding">
+			<!-- Container -->
+			<div class="container">
+				<!-- Section Header -->
+				<div id="" class="section-header">
+					<h3>Acerca de nosotros</h3>
+					<img src="images/header-seprator.png" alt="seprator" />
+				</div><!-- Section Header /- -->
+				<div class="col-md-12 epale">
+					<p>Somos una empresa 100% mexicana comprometida a ofrecer un servicio de calidad en la limpieza
+de organizaciones tales como oficinas, centros comerciales, escuelas, dependencias e instituciones
+gubernamentales, casas, corporativos, etcétera.</p>
+					<p>En la búsqueda de satisfacer la necesidad de dar servicios básicos de limpieza a las empresas, se creó
+Recursos Corporativos de Limpieza, empresa de primer nivel que ofrece lo mejor en calidad, trato
+humano hacia sus clientes y trabajadores, y con la mirada puesta a nivel nacional.
+Nuestra misión es crear ambientes confortables a través de la prestación de servicios integrales de
+limpieza con el fin de contribuir al desarrollo empresarial y humano. Es a través de nuestra empatía,
+calidad y servicio que logramos la satisfacción de cada uno de nuestros clientes.
+Nuestra visión es ser la mejor alternativa para la contratación de servicios integrales de mantenimiento
+de inmuebles en México, a través de la capacitación de nuestra gente y, la debida especialización en
+cada área que involucra nuestro ramo empresarial.</p>
+				<div id="servicios"></div>
+				<br>
+				<br>
+				<br>
+				</div>
+			</div><!-- Container /- -->
+		</div><!-- About us Section /- -->
+
+		<!-- Service Section -->
+		<div id="service-section" class="service-section container-fluid no-padding">
+			<!-- Container -->
+			<div class="container">
+				<!-- Section Header -->
+				<div class="section-header">
+					<br>
+					<h3>Servicios</h3>
+					<img src="images/header-seprator.png" alt="seprator" />
+					<p>CARACTERÍSTICAS DE NUESTROS SERVICIOS</p>
+				</div><!-- Section Header /- -->
+				<div class="col-md-12 service-detail">
+					<div class="col-md-4 col-sm-6 col-xs-12 service-box">
+						<img src="images/srv-ic-1.png" alt="srv-ic" />
+						<h3> VENTAJAS DE NUESTROS SERVICIOS</h3>
+						<p>• Es un servicio 100% deducible de impuestos.</p>
+						<p>• Nuestra empresa es totalmente responsable por la compra de maquinaria, herramientas y equipo de limpieza, así como el mantenimiento de los mismos.</p>	
+						<p>	• En cuanto al recurso humano por parte del cliente, solo se requiere un supervisor del servicio que estará atendido por un supervisor residente y con experiencia.</p>
+						<p>	• Las faltas e incapacidades son cubiertas al momento por lo que nunca queda incompleta la plantilla.</p>
+						<p>• La contratación de un servicio externo de limpieza es en general un 25% más económico que contar con una plantilla de limpieza propia.</p>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 service-box">
+						<img src="images/srv-ic-2.png" alt="srv-ic" />
+						<h3>ALCANCES GENERALES</h3>
+						<p>El servicio contempla la limpieza, requerimientos y necesidades de:</p>
+						<p>• Limpieza y tratamiento de mobiliario: sillas, sillones, escritorios, mamparas, apagadores,
+						exhibidores y aparadores, muebles de acero inoxidable, etc.</p>
+						<p>• Limpieza de equipos eléctricos y electrónicos de oficina tales como computadoras,
+							teléfonos, hornos de microondas, refrigeradores, enfriadores de agua, etc.</p>	
+						<p>• Limpieza de vidrios y cristales interiores con altura máxima de 3 mts.</p>	
+						<p>• Asimismo el servicio contempla la limpieza de áreas comunes tales como pasillos, baños, escaleras,
+							la recolección de la basura y su traslado al lugar de confinamiento dentro de las instalaciones.</p>
+						<p>• El servicio también incluye el apoyo en la separación de cartón y plástico</p>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 service-box">
+						<img src="images/srv-ic-3.png" alt="srv-ic" />
+						<h3>Política de calidad</h3>
+						<p>En Recursos Corporativos de Limpieza (RCL) siempre trabajamos conforme lo establece nuestro sistema
+							de gestión de calidad para que de manera constante podamos satisfacer las necesidades de nuestros
+							clientes y, fomentar la mejora contínua en todas nuestras actividades.</p>
+					</div>
+				</div>
+				<div class="col-md-12 service-detail">
+					<div class="col-md-4 col-sm-6 col-xs-12 service-box">
+						<img src="images/srv-ic-4.png" alt="srv-ic" /> 
+						<h3>SUELDOS Y PRESTACIONES:</h3>
+						<p>La clave de nuestro éxito en la calidad de los servicios que ofrecemos radica
+							en la estabilidad, motivación y capacitación de nuestro personal operativo,
+							para evitar el alto grado de rotación de personal en empresas como la nuestra.
+							Nos comprometemos con el trabajador con sus pagos puntuales de
+							nómina, el pago del Seguro Social, Infonavit, Aguinaldo, Prima Vacacional
+							y demás obligaciones contempladas en las leyes de Seguridad Social y
+							Laborales vigentes en nuestro país, además de bonos mensuales por
+							asistencia y puntualidad.</p>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 service-box">
+						<img src="images/srv-ic-4.png" alt="srv-ic" />
+						<h3> UNIFORME Y GAFETE:</h3>
+						<p>La limpieza comienza por la imagen de nuestro personal, por lo que los
+							trabajadores portan un uniforme completo para su fácil localización así
+							como gafete que lo identifica. </p>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 service-box">
+						<img src="images/srv-ic-4.png" alt="srv-ic" />
+						<h3>  SEGURO DE RESPONSABILIDAD CIVIL:</h3>
+						<p>Para su tranquilidad, contamos con un Seguro de Responsabilidad Civil
+							por la cantidad de $1,000,000.00 que cubriría, mediante comprobación,
+							cualquier contingencia que pudiera presentarse en el cumplimiento de
+							nuestra labor.</p>
+					</div>
+				</div>
+			</div><!-- Container /- -->
+	<!-- 		<div class="col-md-4 srv-img" style="padding-bottom: 225px;">
+				<img src="images/service-main.jpg" alt="service-main" />
+			</div> -->
+		</div><!-- Service Section /- -->
+
+		<!-- Gallery Section -->
+		<div id="gallery-section" class="gallery-section container-fluid no-padding">
+			<div class="gallery-header container-fluid">
+				<!-- Container -->
+				<div class="container">
+					<!-- Section Header -->
+					<div class="section-header">
+						<h3>Últimos trabajos</h3>
+						<img src="images/header-seprator.png" alt="seprator" />
+					</div><!-- Section Header /- -->
+					<!-- <ul id="filters" class="portfolio-categories no-left-padding">
+						<li><a data-filter="*" class="active" href="#">TODOS</a></li>
+						<li><a data-filter=".design" href="#">LIMPIEZA HOGAR</a></li>
+						<li><a data-filter=".video" href="#"> Building cleaning</a></li>
+						<li><a data-filter=".photography" href="#">Commercial cleaning</a></li>
+						<li><a data-filter=".web" href="#">Office cleaning</a></li>
+					</ul> -->
+				</div><!-- Container /- -->
+			</div>
+			<ul class="portfolio-list no-left-padding">
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding design">
+					<div class="content-image-block">
+						<img src="images/480 imagen1.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Limpieza Hogar</h5>
+							<a class="zoom" href="images/480 imagen1.jpg" title="Expand"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding video">
+					<div class="content-image-block">
+						<img src="images/480 imagen2.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Limpieza Hogar</h5>
+							<a class="zoom" href="images/480 imagen2.jpg" title="Expand"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding photography">
+					<div class="content-image-block">
+						<img src="images/480 imagen3.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Edificios</h5>
+							<a class="zoom" href="images/480 imagen3.jpg" title="Expand"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding web">
+					<div class="content-image-block">
+						<img src="images/480 imagen4.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Servicio</h5>
+						</div>
+					</div>
+				</li>
+				
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding design">
+					<div class="content-image-block">
+						<img src="images/480 imagen5.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Servicio</h5>
+							<a class="zoom" href="images/gallery-5.jpg" title="Expand"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding video">
+					<div class="content-image-block">
+						<img src="images/480 imagen6.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Quality Cleaning</h5>
+							<a class="zoom" href="images/gallery-6.jpg" title="Expand"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding photography">
+					<div class="content-image-block">
+						<img src="images/480 imagen7.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Calidad de Servicio</h5>
+							
+						</div>
+					</div>
+				</li>
+				<li class="col-md-3 col-sm-4 col-xs-6 no-padding web">
+					<div class="content-image-block">
+						<img src="images/480 imagen8.jpg" alt="gallery">
+						<div class="content-block-hover">
+							<h5>Personal Capacitado</h5>	
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div><!-- Gallery Section /- -->
+		
+		<!-- Clients -->
+		<div class="clients container-fluid">
+			<!-- Container -->
+			<div class="container">
+				<div class="clients-carousel">
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-1"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-2"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-3"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-4"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-5"/></a></div>
+					
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-1"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-2"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-3"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-4"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-5"/></a></div>
+					
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-1"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-2"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-3"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-4"/></a></div>
+					<div class="col-md-12 item"><a title="client"><img src="images/135x66.jpg" alt="clients-5"/></a></div>
+
+				</div>
+			</div><!-- Container /- -->
+		</div><!-- Client /- -->
+
+		<!-- <div id="faq"></div> -->
+		<!-- Faq Section -->
+		<div class="faq-section container-fluid">
+			<!-- Container -->
+			<div class="container">
+				<!-- Section Header -->
+				<div class="section-header">
+					<h3 id="faq">Preguntas Frecuentes</h3>
+					<img src="images/header-seprator.png" alt="seprator" />
+				</div><!-- Section Header /- -->
+				<div class="col-md-6 col-sm-6 col-xs-6 video-block">
+					<div class="video-section">
+						<img src="images/faq.jpg" alt="faq" />
+						<div class="video-section-content">
+							<h3>Checa nuestra presentación</h3>
+							<a href="https://vimeo.com/45830194" class="popup-vimeo"><img src="images/play-ic-1.png" alt="play" /></a>
+							<p>Video presentación de servicios</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6"> 
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="faqheading1">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faqcontent1" aria-expanded="true">¿Es seguro?</a>
+								</h4>
+							</div>
+							<div id="faqcontent1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqheading1">
+								<div class="panel-body">
+									<p>Si, contamos con un Seguro de Responsabilidad Civil por la cantidad de <strong>$1,000,000.00</strong> que cubriría, mediante comprobación,
+										cualquier contingencia que pudiera presentarse en el cumplimiento de
+										nuestra labor.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="faqheading2">
+								<h4 class="panel-title">
+									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#faqcontent2" aria-expanded="true">¿Quién me atiende?</a>
+								</h4>
+							</div>
+							<div id="faqcontent2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="faqheading2">
+								<div class="panel-body">
+									<p>Contamos con personal altamente competitivo en el ramo de reclutamiento
+										y selección. Utilizamos medios masivos de atracción de candidatos y
+										aplicamos trabajo de campo cerca de la dirección donde se realizará el
+										servicio con el fin de mantener al máximo un mayor rango de puntualidad,
+										tomando en cuenta lo importante que es para nuestros clientes iniciar sus
+										labores en un lugar 100% limpio.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="faqheading3">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#faqcontent3" aria-expanded="true">¿El personal es capacitado?</a>
+								</h4>
+							</div>
+							<div id="faqcontent3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqheading3">
+								<div class="panel-body">
+									<p>Si, para impulsar el desarrollo de nuestro personal contamos con capacitadores
+										internos y externos, certificados y registrados ante la Secretaría del
+										Trabajo y Previsión Social en la aplicación de nuevas técnicas y prácticas de
+										trabajo especializadas en el ramo y la materia.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- Container /- -->
+		</div><!-- Faq Section /- -->
+		<div id="clientes"></div>
+		<!-- Testimonial Section 1 -->
+		<div class="testimonial-section-1 container-fluid">
+			<!-- Container -->
+			<div class="container">
+				<!-- Section Header -->
+				<div class="section-header">
+					<h3>Nuestros Clientes Opinan</h3>
+					<img src="images/header-seprator.png" alt="seprator">
+				</div><!-- Section Header /- -->
+				<div class="col-md-8">
+					<div class="testimonial-slider">
+						<div class="mis-stage">
+							<div class="mis-content-block">
+								<div id="mis_slide_content-1">
+									<p>Una grata experiencia con el servicio ofrecido, los empleados son amables y muy compremitidos con su trabajo. Un excelente servicio que es recomendado a todo público.</p>	
+									<i class="icon_quotations"></i>
+								</div>
+								<div id="mis_slide_content-2">
+									<p>Excelente calidad en el servicio, realizan todo lo que prometen y  sobre todo la atención al cliente es muy buena.</p>
+									<i class="icon_quotations"></i>
+								</div>
+								<div id="mis_slide_content-3">
+									<p>Sus servicios han sido excelente, y aparte sus servicios de limpieza son muy amplios y se adaptan a las necesidades. </p>
+									<i class="icon_quotations"></i>
+								</div>
+								<div id="mis_slide_content-4">
+									<p>A decir verdad es el mejor servicio de limpieza que la empresa pudo haber contratado, hacen un excelente trabajo y siempre lo hacen en tiempo y forma.</p>
+									<i class="icon_quotations"></i>
+								</div>
+								<div id="mis_slide_content-5">
+									<p>Sin lugar a duda es uno de los servicios de limpieza que más me han convencido, su trabajo es rápido y eficiente y nunca hemos tenido quejas de que algo quede mal, la empresa donde trabajo usa siempre sus servicios.</p>
+									<i class="icon_quotations"></i>
+								</div>
+								<div id="mis_slide_content-6">
+									<p>La calidad del servicio es muy buena, ofrecen una amplia variedad de servicios que se ajustaron perfecto a nuestra necesidad.
+									Un servicio ampliamente recomendado.</p>
+									<i class="icon_quotations"></i>
+								</div>
+								<div id="mis_slide_content-7">
+									<p>El servicio que brindan es excelente y es muy útil después de una construcción, ya que es una parte muy pesada, el equipo de trabajo que nos brindan hacen un trabajo realmente impecable.
+									Un servicio muy recomendado.</p>
+									<i class="icon_quotations"></i>
+								</div>
+							</div>
+							<ol class="mis-slider">
+								<li id="mis_slide-1" class="mis-slide" data-slide="1">
+									<a class="mis-container">
+										<img src="images/72imagen4.jpg" alt="testimonial" />
+										<span class="customer-name">Andrea Lozano</span>
+										<span class="customer-country">DataTech Company</span>
+									</a>
+								</li>
+								<li id="mis_slide-2" class="mis-slide" data-slide="2">
+									<a class="mis-container">
+										<img src="images/72imagen3.jpg" alt="testimonial" />
+										<span class="customer-name">Guillermo Gonzalez</span>
+										<span class="customer-country">Mecánica Indispensable</span>
+									</a>
+								</li>
+								<li id="mis_slide-3" class="mis-slide" data-slide="3">
+									<a class="mis-container">
+										<img src="images/72imagen7.jpg" alt="testimonial" />
+										<span class="customer-name">Laura Martínez</span>
+										<span class="customer-country">Reparaciones Morelos</span>
+									</a>
+								</li>
+								<li id="mis_slide-4" class="mis-slide" data-slide="3">
+									<a class="mis-container">
+										<img src="images/72imagen2.jpg" alt="testimonial" />
+										<span class="customer-name">Antonio Torres</span>
+										<span class="customer-country">Corporativo iTech</span>
+									</a>
+								</li>
+								<li id="mis_slide-5" class="mis-slide" data-slide="3">
+									<a class="mis-container">
+										<img src="images/72imagen6.jpg" alt="testimonial" />
+										<span class="customer-name">Karla Velazco</span>
+										<span class="customer-country">Audio Express</span>
+									</a>
+								</li>
+								<li id="mis_slide-6" class="mis-slide" data-slide="3">
+									<a class="mis-container">
+										<img src="images/72imagen5.jpg" alt="testimonial" />
+										<span class="customer-name">María Robles</span>
+										<span class="customer-country">Mueblería Hnos.Rodríguez</span>
+									</a>
+								</li>
+								<li id="mis_slide-7" class="mis-slide" data-slide="3">
+									<a class="mis-container">
+										<img src="images/72imagen1.jpg" alt="testimonial" />
+										<span class="customer-name">Rodrigo Vásquez</span>
+										<span class="customer-country">Constructora Inovva</span>
+									</a>
+								</li>
+								
+						
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div><!-- Container /- -->
+		</div><!-- Testimonial Section 1 /- -->
+	</main>
+
+
+	<!-- Footer Main -->
+	<footer id="footer-main" class="footer-main container-fluid no-padding">
+		<!-- Container -->
+
+		<div id="contacto" class="container">
+			<!-- Widget Guide -->
+			<!-- Widget Info -->
+			<!-- Widget Post -->
+			<!-- Widget Contact -->
+			<div class="footerText">
+				<h2>Contacto</h2>
+				<h3>Dirección</h3>
+				<p>Calle Holbein #37, Colonia Nápoles - Despacho 304, CDMX.</p>
+				<h3>Correo</h3>
+				<p><a href="mailto:limpiezarcl@gmail.com" title="limpiezarcl@gmail.com">limpiezarcl@gmail.com</a></p>
+			</div>
+		</div><!-- Container /- -->
+	</footer><!-- Footer Main /- -->
+	
+	<div class="copyright-section container-fluid no-padding">
+		<!-- Container -->
+		<div class="container">
+			<div class="coyright-content">
+				<p> OFlimpieza  &copy; 2018 Copyrights All Rights Reserved</p>
+			</div>
+			<ul class="pull-right">
+				<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" title="google-plus"><i class="fa fa-tumblr"></i></a></li>
+			</ul>
+		</div><!-- Container /- -->
+	</div>
+	<!-- JQuery v1.11.3 -->
+	<script src="js/jquery.min.js"></script>
+
+	<!-- Library - Js -->
+	<script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
+
+	<!-- RS5.0 Core JS Files -->
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	
+	<!-- Library - Google Map API -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
+	
+	<!-- Library - Theme JS -->
+	<script src="js/functions.js"></script>
+</body>
+</html>
